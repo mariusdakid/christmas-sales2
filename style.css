@@ -12,7 +12,6 @@ body{
     background-image: url(images/christmas-1869902_640.jpg);
     background-size: cover;
     background-position: center;
-    margin: 10px auto;
     border-radius: 9px;
 }
 
@@ -44,9 +43,8 @@ p{
     display: flex;
     justify-content: center;
     color: #ffff;
-    margin: 0 0 20px 90px;
+    margin: 10px 0 20px 90px;
     font-weight: 700;
-    line-height: 1em;
     font-size: 15px;
 }
 
@@ -63,18 +61,15 @@ p{
 
 .first{
     font-size: 30px;
-    letter-spacing: .05em;
-    text-decoration: underline double #fff;
 }
 
 .second{
     font-size: 20px;
-    /* letter-spacing: .02em; */
 }
 
 .third{
     color: gold;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -85,7 +80,6 @@ p{
 
 .fifth{
     color: gold;
-    margin-bottom: 60px;
     margin-left: 40%;
     padding: .2em;
     background-color: #000;
@@ -97,36 +91,46 @@ p{
 .contact{
     color: goldenrod;
     font-weight: 700;
-    margin: 0 0 5% 57%;
     text-decoration: underline;
+    margin-left: 6%;
 }
 
 @media screen and (max-width:600px) {
     body{
         margin: 0;
         width: 100%;
-        max-height: 100%;
+        height: 100%;
+        overflow: hidden;
     }
     .container{
-        margin: 0;
         width: 100%;
-        height: 770px;
-        scroll-snap-type: none;
+        height: 740px;
         border-radius: 0;
         background-position: center;
         background-size: contain;
-        background-position: right;
         background-image: url(images/images12.jpeg);
+    }
+
+    .fourth{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .third{
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .second{
+        font-family: cursive;
+    }
+
+    .first{
+        margin: 0;
     }
 
     img{
         margin-left: 20%;
-    }
-
-    .merry{
-        margin: 0 auto;
-        opacity: 1;
-        font-size: 30px;
     }
 
     p{
@@ -139,8 +143,8 @@ p{
     }
 
     .contact{
-        margin-top: 15%;
-        margin: 0 17%;
+        margin: 10% 15%;
+        font-weight: 700;
     }
 
     .ro1{
@@ -158,7 +162,7 @@ p{
     
     .ro6{
         rotate: 2deg;
-        margin: 0 0 5% 0;
+        margin: 0 0 2% 0;
     }
 }
 
